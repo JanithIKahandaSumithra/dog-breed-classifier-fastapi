@@ -15,7 +15,6 @@ The FastAPI application is deployed on AWS and can be accessed at:
 
 - `main.py`: FastAPI application code.
 - `dog_breed_model.h5`: Pre-trained TensorFlow model for dog breed classification.
-- `class_labels.pkl`: Class labels used for prediction.
 - `requirements.txt`: List of Python dependencies for the project.
 
 ## How to Run Locally
