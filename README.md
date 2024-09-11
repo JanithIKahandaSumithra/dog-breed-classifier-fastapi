@@ -59,6 +59,3 @@ Follow the steps below to run the FastAPI app on your local machine:
   `POST /Dog_Breed_Predict/`  
   Accepts an image file and returns the predicted dog breed.
 
-  **Example Request:**
-  ```bash
-  curl -X POST "http://127.0.0.1:8000/Dog_Breed_Predict/" -H "accept: application/json" -H "Content-Type: multipart/form-data" -F "file=@dog_image.jpg"
