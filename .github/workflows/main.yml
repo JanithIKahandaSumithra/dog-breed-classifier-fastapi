@@ -66,7 +66,5 @@ jobs:
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         AWS_REGION: 'your-aws-region'  # Replace with your AWS region
 
-    # Note: This CI/CD pipeline is designed for deploying to an AWS EC2 instance using S3 for storing deployment packages.
-    # For the assignment, the FastAPI application was deployed using AWS management console EC2 instance. This workflow is included
-    # for academic purposes to demonstrate CI/CD concepts with GitHub Actions.
-
+    # For the assignment, the FastAPI application was deployed using the management console on AWS EC2. This workflow is included
+    # to demonstrate CI/CD concepts with GitHub Actions.
